@@ -56,7 +56,8 @@ vorgesehen.
 - `index.html` – Hauptseite der Webanwendung  
 - `style.css` – Gestaltung und responsives Layout  
 - `script.js` – Logik für Tabelle, Filter, Sortierung und RTL-Umschaltung  
-- `impressum.html` / `datenschutz.html` – rechtliche Seiten  
+- `impressum.html` / `datenschutz.html` – rechtliche Seiten
+- `logo.png` / `banner.png` - Elemente für das Design
 
 
 
