@@ -1,4 +1,4 @@
-# CO₂-Footprint – Studienprojekt
+# CO₂ Footprint Studienprojekt
 
 Dieses Repository enthält den Quellcode einer Webanwendung zur Darstellung
 fiktiver CO₂-Emissionsdaten von Unternehmen und Ländern. Das Projekt wurde
