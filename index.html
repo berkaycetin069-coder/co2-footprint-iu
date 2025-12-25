@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>CO₂-Footprint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img src="logo.png" alt="Logo" class="site-logo">
+      <span class="site-title">CO₂-Footprint</span>
+    </div>
+
+    <nav class="global-nav">
+      <a href="#start">Start</a>
+      <a href="#daten">Daten</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+  </div>
+</header>
+
+<section id="start" class="hero">
+  <img src="banner.png" alt="Bannerbild" class="hero-img">
+</section>
+
+<main class="page">
+
+  <aside class="local-menu">
+    <h2>Lokales Menü</h2>
+    <a href="#start">Übersicht</a>
+    <a href="#daten">Filter</a>
+    <a href="#info">Info</a>
+
+    <label class="rtl-toggle">
+      <input type="checkbox" id="rtlToggle">
+      Schriftkultur: RTL anzeigen
+    </label>
+  </aside>
+
+  <section id="daten" class="content">
+    <h1>Fiktive CO₂-Daten</h1>
+
+    <p>
+      Auf dieser Seite werden beispielhafte CO₂-Emissionsdaten angezeigt.
+      Die Werte sind frei erfunden und dienen ausschließlich der Fallstudie.
+    </p>
+
+    <label for="searchInput">Filter nach Land oder Unternehmen</label>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="z. B. Deutschland oder BMW"
+      autocomplete="off"
+    >
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" data-sort="company">Unternehmen</th>
+          <th scope="col" data-sort="country">Land</th>
+          <th scope="col" data-sort="co2">CO₂-Emissionen (t)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- wird per JavaScript gefüllt -->
+      </tbody>
+    </table>
+
+    <p id="info" class="info-text">
+      Hinweis: Nutzereingaben werden ausschließlich als Text verarbeitet.
+      Dadurch wird verhindert, dass eingeschleuster Code ausgeführt wird.
+    </p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-inner">
+
+      <div class="footer-col">
+        <div class="footer-title">CO₂-Footprint IU</div>
+        <div class="footer-text">
+          Studienprojekt zur übersichtlichen Darstellung fiktiver CO₂-Emissionsdaten.
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-title">Schnellzugriff</div>
+        <div class="footer-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-title">Kontakt</div>
+        <div class="footer-text">
+          E-Mail:
+          <a href="mailto:berkaycetin@co2-footprint-iu.example">berkaycetin@co2-footprint-iu.example</a><br>
+          Telefon: +49 30 12345678
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 CO₂-Footprint IU · Alle Angaben ohne Gewähr
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
